@@ -1,0 +1,5 @@
+{
+    "name": "cosium-opencvjs",
+    "version": "1.0.0",
+    "main": "build/cv.js"
+}
