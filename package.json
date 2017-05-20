@@ -5,7 +5,8 @@
   "main": "build/cv.js",
   "scripts": {
     "build": "python make.py",
-    "test": "open test/tests.html"
+    "test": "open test/tests.html",
+    "release": "npm run build && npm-release"
   },
   "files": [
     "build/cv.js",
@@ -14,5 +15,8 @@
   "homepage": "https://github.com/Cosium/opencvjs",
   "repository": "https://github.com/Cosium/opencvjs",
   "bugs": "https://github.com/Cosium/opencvjs/issues",
-  "license": "BSD-4-Clause"
+  "license": "BSD-4-Clause",
+  "devDependencies": {
+    "npm-release": "^1.0.0"
+  }
 }
