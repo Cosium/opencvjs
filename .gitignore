@@ -1,2 +1,4 @@
 opencv
 build
+test/cv.data
+test/cv.js
