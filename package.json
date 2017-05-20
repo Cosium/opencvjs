@@ -9,8 +9,7 @@
     "release": "npm run build && npm-release"
   },
   "files": [
-    "build/cv.js",
-    "build/cv.data"
+    "build/cv.js"
   ],
   "homepage": "https://github.com/Cosium/opencvjs",
   "repository": "https://github.com/Cosium/opencvjs",
