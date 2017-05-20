@@ -6,7 +6,7 @@
   "scripts": {
     "build": "python make.py",
     "test": "open test/tests.html",
-    "release": "npm run build && npm-release"
+    "release": "npm run build && npm-release patch"
   },
   "files": [
     "build/cv.js"
