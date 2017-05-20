@@ -1,6 +1,6 @@
 {
   "name": "cosium-opencvjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JavaScript Bindings for OpenCV",
   "main": "build/cv.js",
   "scripts": {
