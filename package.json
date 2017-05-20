@@ -5,8 +5,7 @@
   "main": "build/cv.js",
   "scripts": {
     "build": "python make.py",
-    "test": "open test/tests.html",
-    "release": "npm run build && npm version patch && git push && git push --tags && npm publish"
+    "test": "open test/tests.html"
   },
   "files": [
     "build/cv.js"
