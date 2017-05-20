@@ -215,7 +215,7 @@ try:
                 ]
 
     emscripten.Building.link(input_files, 'libOpenCV.bc')
-    emcc_args += '--preload-file ../../test/data/'.split(' ') #For testing purposes
+    # emcc_args += '--preload-file ../../test/data/'.split(' ') #For testing purposes
     emcc_args += ['--bind']
 #emcc_args += ['--memoryprofiler']
 
