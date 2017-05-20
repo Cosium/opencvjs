@@ -7,6 +7,10 @@
     "build": "python make.py",
     "test": "open test/tests.html"
   },
+  "files": [
+    "build/cv.js",
+    "build/cv.data"
+  ],
   "homepage": "https://github.com/Cosium/opencvjs",
   "repository": "https://github.com/Cosium/opencvjs",
   "bugs": "https://github.com/Cosium/opencvjs/issues",
