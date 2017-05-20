@@ -241,7 +241,7 @@ try:
     }
 }(this, function () {
     %s
-    return cv(Module);
+    return cv(Module || {});
 }));
 """ % (out,)).lstrip())
 
